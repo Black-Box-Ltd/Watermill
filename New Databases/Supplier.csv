@@ -1,0 +1,224 @@
+supplierID,supplierName,postCode,city,country,deliveryTime
+1,Talbot ornaments,SA133EU,"Port Talbot,United Kingdom",GB,1
+2,Ceasers,BN271RL,"Hailsham,United Kingdom",GB,3
+3,The Pump Shop,WS13EJ,"Walsall,United Kingdom",GB,13
+4,Exeter Garden Gifts,EX52RX,"Exeter,United Kingdom",GB,6
+5,Good Stuff,LL227SW,"Abergele,United Kingdom",GB,8
+6,Prissies,PR25BL,"Preston,United Kingdom",GB,9
+7,Suttings,NG174DW,"Sutton-in-Ashfield,United Kingdom",GB,7
+8,Gamlers,NE82NT,"Gateshead,United Kingdom",GB,1
+9,Damsels,DN26LL,"Doncaster,United Kingdom",GB,8
+10,P&TL,ST71HE,"Stoke-on-Trent,United Kingdom",GB,8
+11,Wafflers,WA87DD,"Widnes,United Kingdom",GB,12
+12,Leas,CV339DN,"Leamington Spa,United Kingdom",GB,7
+13,Birds for Business,NP263GF,"Caldicot,United Kingdom",GB,13
+14,Swordskils,LE127BH,"Loughborough,United Kingdom",GB,7
+15,Wellies,NN81HN,"Wellingborough,United Kingdom",GB,4
+16,Potters,WR66HY,"Worcester,United Kingdom",GB,4
+17,Quereta,PO208PA,"Chichester,United Kingdom",GB,12
+18,Whitelands,S72BE,"Sheffield,United Kingdom",GB,9
+19,Grannies,NG317PS,"Grantham,United Kingdom",GB,12
+20,Wigwams,WN60BP,"Wigan,United Kingdom",GB,6
+21,Working Wood,PR69FE,"Chorley,United Kingdom",GB,3
+22,Light and Flight,PE78DG,"Peterborough,United Kingdom",GB,6
+23,Racey Roof and Garden,NP166NP,"Chepstow,United Kingdom",GB,1
+24,Lardies,LL301HU,"Llandudno,United Kingdom",GB,7
+25,Union Sales,NR78DP,"Norwich,United Kingdom",GB,3
+26,Palters,BH121EQ,"Poole,United Kingdom",GB,5
+27,Moovers,HR49HN,"Hereford,United Kingdom",GB,6
+28,Statues and Lawns,CH24EB,"Chester,United Kingdom",GB,5
+29,Nessies,PE253TB,"Skegness,United Kingdom",GB,12
+30,Brummigum,B112BE,"Birmingham,United Kingdom",GB,1
+31,Vexed,LL130DT,"Wrexham,United Kingdom",GB,4
+32,Central,E151RB,"London,United Kingdom",GB,9
+33,LCMT,LE27SR,"Leicester,United Kingdom",GB,2
+34,Hitchin Kitchin,SG40TY,"Hitchin,United Kingdom",GB,11
+35,Chelm Chimes,CM27RW,"Chelmsford,United Kingdom",GB,5
+36,Thursdays,WS109LR,"Wednesbury,United Kingdom",GB,6
+37,The Quays,SA175NA,"Ferryside,United Kingdom",GB,7
+38,The Garden Crewe,CW13JX,"Crewe,United Kingdom",GB,4
+39,Luxes,B258LD,"Birmingham,United Kingdom",GB,3
+40,Olers,WC2H9JQ,"London,United Kingdom",GB,6
+41,Lookewes,BT828LN,"Strabane,United Kingdom",GB,6
+42,Opal Options,SA175NA,"Ferryside,United Kingdom",GB,5
+43,Uniters,HU91TH,"Hull,United Kingdom",GB,10
+44,No Where,RG414DS,"Wokingham,United Kingdom",GB,6
+45,Presius,B263JX,"Birmingham,United Kingdom",GB,2
+46,The incredibly long shop.,LL615RZ,"Llanfairpwllgwyngyll,United Kingdom",GB,13
+47,The Rough Shop,HU151SW,"Brough,United Kingdom",GB,7
+48,Carders,SA340JL,"Whitland,United Kingdom",GB,6
+49,Royals,FY30EG,"Blackpool,United Kingdom",GB,2
+50,Sals,TA219PY,"Wellington,United Kingdom",GB,3
+51,Cunions,M224RW,"Manchester,United Kingdom",GB,10
+52,Cuddlies,B646PU,"Cradley Heath,United Kingdom",GB,13
+53,Dons Garden Bits,MK57AX,"Milton Keynes,United Kingdom",GB,3
+54,The Hooders,HD22XJ,"Huddersfield,United Kingdom",GB,6
+55,Blooming Great,B315QP,"Birmingham,United Kingdom",GB,9
+56,Rimseys,SO510PD,"Romsey,United Kingdom",GB,11
+57,The Lays,PR266TN,"Leyland,United Kingdom",GB,7
+58,Bugs and Bits,RM82DD,"Dagenham,United Kingdom",GB,5
+59,Straw Town,HP92JD,"Beaconsfield,United Kingdom",GB,7
+60,Belview Brickabrack,M88RA,"Manchester,United Kingdom",GB,12
+61,Dimplers,LS158ZA,"Leeds,United Kingdom",GB,13
+62,Moppers,SL61UA,"Maidenhead,United Kingdom",GB,2
+63,Collies,CO62LG,"Colchester,United Kingdom",GB,10
+64,Peggies,PE38JH,"Peterborough,United Kingdom",GB,12
+65,Hatters,TW59PR,"Hounslow,United Kingdom",GB,7
+66,The Barracks,GU350XW,"Bordon,United Kingdom",GB,1
+67,TA Holdings,RH138AZ,"Horsham,United Kingdom",GB,6
+68,Woolies,BA52JH,"Wells,United Kingdom",GB,3
+69,The Upper Shelf,S636NX,"Rotherham,United Kingdom",GB,10
+70,ETC,EX52DR,"Exeter,United Kingdom",GB,7
+71,Yovillage,BA227LH,"Yeovil,United Kingdom",GB,10
+72,Skippies,BD231JF,"Skipton,United Kingdom",GB,2
+73,Le Stuff,LA220JS,"Ambleside,United Kingdom",GB,4
+74,Central Store,N90AB,"London,United Kingdom",GB,1
+75,P and WT,ST71HE,"Stoke-on-Trent,United Kingdom",GB,2
+76,Northwest sales,NW37JH,"London,United Kingdom",GB,10
+77,Brummie Basement,B145TP,"Birmingham,United Kingdom",GB,5
+78,Walters Stoneware,SS68JL,"Rayleigh,United Kingdom",GB,8
+79,Croakers,L191RY,"Liverpool,United Kingdom",GB,2
+80,Harping On,WA95NH,"St. Helens,United Kingdom",GB,9
+81,Alfies,B783PR,"Tamworth,United Kingdom",GB,6
+82,VKs,IP171QU,"Saxmundham,United Kingdom",GB,8
+83,Gardeners Pool,FY30EG,"Blackpool,United Kingdom",GB,8
+84,Trainers,DL14WG,"Darlington,United Kingdom",GB,2
+85,Habbitting,CV114PN,"Nuneaton,United Kingdom",GB,6
+86,On the Square,OX296TN,"Witney,United Kingdom",GB,7
+87,Pruppers,B700AZ,"West Bromwich,United Kingdom",GB,5
+88,The Daggie Shop,RH103PD,"Crawley,United Kingdom",GB,9
+89,Cesters,CO57JD,"Colchester,United Kingdom",GB,1
+90,Ironstone,TF12JS,"Telford,United Kingdom",GB,10
+91,Mantassa,RG404PJ,"Wokingham,United Kingdom",GB,1
+92,Macks,NG185HW,"Mansfield,United Kingdom",GB,4
+93,The Place,S352PH,"Sheffield,United Kingdom",GB,9
+94,Puddlingtons,GL28JG,"Gloucester,United Kingdom",GB,5
+95,Wurly Goods,CH623RP,"Wirral,United Kingdom",GB,13
+96,Manns,NG182RL,"Mansfield,United Kingdom",GB,2
+97,Cottingham Garden Goods,HU165YQ,"Cottingham,United Kingdom",GB,4
+98,Rickies,OL161TA,"Rochdale,United Kingdom",GB,12
+99,Colins,EH478NP,"Bathgate,United Kingdom",GB,12
+100,Reads,RG423XD,"Bracknell,United Kingdom",GB,4
+101,LETRN,NG55DN,"Northampton,United Kingdom",GB,5
+102,Wallies,NN84RN,"Wellingborough,United Kingdom",GB,3
+103,Crains,RG71UR,"Reading,United Kingdom",GB,11
+104,Cambels,LA63ED,"Carnforth,United Kingdom",GB,11
+105,The Swails,SA432NW,"Cardigan,United Kingdom",GB,4
+106,Braggers,BS348GG,"Weston-super-Mare,United Kingdom",GB,2
+107,Furriers,SN78EP,"Faringdon,United Kingdom",GB,7
+108,The Garden Crewe,CW30EX,"Crewe,United Kingdom",GB,4
+109,Beebies,PE203QF,"Boston,United Kingdom",GB,12
+110,Terriers,PE203JR,"Boston,United Kingdom",GB,11
+111,Hot Things,CA255QE,"Cleator Moor,United Kingdom",GB,3
+112,Mannor Mines,UB77RX,"West Drayton,United Kingdom",GB,6
+113,HR an MR,LL210DR,"Corwen,United Kingdom",GB,5
+114,Cygons,GL71YT,"Cirencester,United Kingdom",GB,4
+115,Iswitch,IP60NX,"Ipswich,United Kingdom",GB,11
+116,Harolds,CB97YH,"Harlow,United Kingdom",GB,12
+117,Towie Tatle,CM133SN,"Brentwood,United Kingdom",GB,12
+118,Hummarks,CM232AP,"Bishop's Stortford,United Kingdom",GB,6
+119,Rammers Emporium,DE221DD,"Derby,United Kingdom",GB,9
+120,Miss Diss,IP221NE,"Diss,United Kingdom",GB,3
+121,The Little Big Shop,SS80QY,"Canvey Island,United Kingdom",GB,13
+122,Ramports,WV164AP,"Bridgnorth,United Kingdom",GB,12
+123,Rosies,BB46DJ,"Rossendale,United Kingdom",GB,3
+124,GTs,IP200AN,"Harleston,United Kingdom",GB,2
+125,Bourne Again,BH76HD,"Bournemouth,United Kingdom",GB,2
+126,Banging On,PR31PR,"Preston,United Kingdom",GB,11
+127,Chappies,GL526BP,"Cheltenham,United Kingdom",GB,6
+128,Startics,WA74UH,"Runcorn,United Kingdom",GB,2
+129,Plexes,RG415UX,"Wokingham,United Kingdom",GB,8
+130,Torque,TQ28NW,"Torquay,United Kingdom",GB,12
+131,Dragon Doings,NN142RQ,"Kettering,United Kingdom",GB,1
+132,Rogers,TW196AE,"Staines,United Kingdom",GB,10
+133,DTD,TW196AE,"Staines,United Kingdom",GB,8
+134,Tor Ornaments,BA68LE,"Glastonbury,United Kingdom",GB,13
+135,BAAH,S751HH,"Barnsley,United Kingdom",GB,5
+136,Satais,S419AY,"Chesterfield,United Kingdom",GB,4
+137,Muggers,M259PF,"Manchester,United Kingdom",GB,10
+138,Hammings,LS197UR,"Leeds,United Kingdom",GB,3
+139,Kettles,NN156NL,"Kettering,United Kingdom",GB,7
+140,Tong in Cheek,TN25UF,"Tunbridge Wells,United Kingdom",GB,6
+141,Edmunds,IP287RJ,"Bury St. Edmunds,United Kingdom",GB,5
+142,Brandons,IP279DP,"Brandon,United Kingdom",GB,9
+143,Lizzies Lawn Goods,DA26QA,"Dartford,United Kingdom",GB,3
+144,Runners,WA74US,"Runcorn,United Kingdom",GB,3
+145,SSW,SL11LE,"Slough,United Kingdom",GB,7
+146,Sheas,NE81YB,"Gateshead,United Kingdom",GB,4
+147,Solers,CT155LA,"Dover,United Kingdom",GB,8
+148,Gillians,SP85LY,"Gillingham,United Kingdom",GB,5
+149,Maries,BT783RH,"Omagh,United Kingdom",GB,7
+150,Toownies,G329QT,"Glasgow,United Kingdom",GB,2
+151,Burnters,NP120ND,"Blackwood,United Kingdom",GB,5
+152,Stones and Gnomes,KT33QW,"New Malden,United Kingdom",GB,9
+153,Dutcheses,WF132ED,"Dewsbury,United Kingdom",GB,8
+154,Lampkins,WF156QR,"Liversedge,United Kingdom",GB,11
+155,Augstinas,WA119WE,"St. Helens,United Kingdom",GB,4
+156,Doings,YO259DJ,"Driffield,United Kingdom",GB,8
+157,Wendys,BL34LP,"Bolton,United Kingdom",GB,7
+158,Dabbers,DH79FL,"Durham,United Kingdom",GB,6
+159,Katies,BT513AF,"Coleraine,United Kingdom",GB,11
+160,Sellers,YO88NT,"Selby,United Kingdom",GB,12
+161,Libys,EH545DB,"Livingston,United Kingdom",GB,6
+162,Ongard,CM36DP,"Chelmsford,United Kingdom",GB,13
+163,MKs,LA94TP,"Kendal,United Kingdom",GB,7
+164,Walters,SS67TZ,"Rayleigh,United Kingdom",GB,2
+165,Ollies,SY114JH,"Oswestry,United Kingdom",GB,12
+166,WERKI,SK236BG,"High Peak,United Kingdom",GB,3
+167,The Stand,S251ZE,"Sheffield,United Kingdom",GB,11
+168,Woolfies,IP287DE,"Bury St. Edmunds,United Kingdom",GB,1
+169,Elegance,NR325EZ,"Stamford,United Kingdom",GB,4
+170,Fabershams,HU143PZ,"North Ferriby,United Kingdom",GB,4
+171,Proodies,NE425AX,"Prudhoe,United Kingdom",GB,12
+172,Cheaftons,DT110HZ,"Blandford Forum,United Kingdom",GB,8
+173,Nigels,NR93EL,"Norwich,United Kingdom",GB,12
+174,Mays,TN206RG,"Mayfield,United Kingdom",GB,1
+175,Ferrymans,S715BH,"Barnsley,United Kingdom",GB,12
+176,Bodrums,LL625DL,"Bodorgan,United Kingdom",GB,9
+177,Bayers,CT65TU,"Herne Bay,United Kingdom",GB,2
+178,Rustic Robs,DN150BX,"Scunthorpe,United Kingdom",GB,4
+179,Wigwams,WN68JS,"Wigan,United Kingdom",GB,6
+180,Cabbotts,CF158BU,"Cardiff,United Kingdom",GB,1
+181,B and Rs,DL94GE,"Catterick Garrison,United Kingdom",GB,5
+182,Nutters,NG165BZ,"Nottingham,United Kingdom",GB,8
+183,Brahams,TQ59UB,"Brixham,United Kingdom",GB,9
+184,Smiths Stuff,NE373ES,"Washington,United Kingdom",GB,9
+185,Terrys Tatt,FY52TY,"Thornton-Cleveleys,United Kingdom",GB,10
+186,FIDDDA,GL179NA,"Drybrook,United Kingdom",GB,6
+187,Southern Stuff,PL254HA,"St. Austell,United Kingdom",GB,1
+188,Billies Bits,EH482RX,"Bathgate,United Kingdom",GB,10
+189,Willies,CV370AD,"Stratford-upon-Avon,United Kingdom",GB,8
+190,Cambers,EC1A9HF,"London,United Kingdom",GB,11
+191,Donnies,DN76LY,"Doncaster,United Kingdom",GB,8
+192,The Bridges,SW148DX,"London,United Kingdom",GB,12
+193,LETRN,NG55DN,"Nottingham,United Kingdom",GB,5
+194,Delta Trading,SN101JQ,"Devizes,United Kingdom",GB,1
+195,The Garden Crewe,CW13JX,"Crewe,United Kingdom",GB,11
+196,SE Holdings,PR25SL,"Preston,United Kingdom",GB,4
+197,Moovern On,B980EA,"Redditch,United Kingdom",GB,8
+198,Yorkies,YO424PN,"York,United Kingdom",GB,6
+199,Billies,PE203EN,"Boston,United Kingdom",GB,12
+200,Caercare,CF238PS,"Cardiff,United Kingdom",GB,5
+201,Wurtsies,KT168QL,"Chertsey,United Kingdom",GB,13
+202,Overrover,TA230PZ,"Watchet,United Kingdom",GB,10
+203,Softs Croft,NR325EZ,"Lowestoft,United Kingdom",GB,12
+204,Wells,TN126PY,"Tonbridge,United Kingdom",GB,6
+205,The Cake Shop,WF93EJ,"Pontefract,United Kingdom",GB,2
+206,New Marks,CM232JU,"Bishop's Stortford,United Kingdom",GB,8
+207,Knowels,CW60SR,"Tarporley,United Kingdom",GB,10
+208,Chesters,CH40BU,"Chester,United Kingdom",GB,8
+209,Updales,CB97YH,"Haverhill,United Kingdom",GB,8
+210,TGM,UB67RH,"Greenford,United Kingdom",GB,4
+211,The Pirates,TR182RJ,"Penzance,United Kingdom",GB,13
+212,The Manx,M300HH,"Manchester,United Kingdom",GB,12
+213,Grimdykes,UB67RH,"Greenford,United Kingdom",GB,12
+214,Warmers,WA58DE,"Warrington,United Kingdom",GB,10
+215,Sultanas,LN82AQ,"Market Rasen,United Kingdom",GB,1
+216,DRME,FY83AY,"Lytham St. Annes,United Kingdom",GB,6
+217,The Lynes,OL64TY,"Ashton-under-Lyne,United Kingdom",GB,5
+218,The Hunters,PE282PH,"Huntingdon,United Kingdom",GB,12
+219,Babblers,RG414DS,"Whitland,United Kingdom",GB,4
+220,Saxmondons,SA66RX,"Swansea,United Kingdom",GB,7
+221,Carders,SA44BP,"Swansea,United Kingdom",GB,6
+222,Ocheyes,G58LP,"Glasgow,United Kingdom",GB,3
+223,High Times,CB97UN,"Haverhill,United Kingdom",GB,4
