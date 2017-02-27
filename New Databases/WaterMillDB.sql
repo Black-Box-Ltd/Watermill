@@ -4,6 +4,7 @@ create database fanWaterMillDB;
 use fanWaterMillDB;
 
 drop table if exists items;
+drop table if exists itemStocks;
 drop table if exists suppliers;
 drop table if exists supplierItems;
 drop table if exists users;
@@ -11,8 +12,11 @@ drop table if exists orders;
 drop table if exists itemOrders;
 
 create table items (itemID  bigint(15) NOT NULL Auto_Increment, itemName varchar(20) NOT NULL, primaryCategory varchar(15) NOT NULL,
-sellingState tinyint(1) NOT NULL, listingType varchar(10) NOT NULL, promotion varchar(20), itemLocation varchar(10) NOT NULL,
+sellingState tinyint(1) NOT NULL, listingType varchar(10) NOT NULL, promotion varchar(20), itemLocation varchar(10) NOT NULL, 
 Primary key (itemID));
+
+create table itemStocks(itemID bigint(15) NOT NULL, minimumStock int(3) NOT NULL, currentStock int(3) NOT NULL,
+estimatedStock int(3) NOT NULL, Primary Key (itemID), Foreign Key (itemID) references items(itemID));
 
 create table suppliers (supplierID bigint(15) NOT NULL Auto_Increment, supplierName varchar(20) NOT NULL, postCode varchar(8) NOT NULL,
 city varchar(15) NOT NULL, country varchar(5) NOT NULL, deliveryTime varchar(10) , Primary Key (supplierID));
