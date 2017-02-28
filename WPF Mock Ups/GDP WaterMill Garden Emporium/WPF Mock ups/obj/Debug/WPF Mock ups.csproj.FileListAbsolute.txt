@@ -1,2 +1,14 @@
 C:\Users\Ashle\OneDrive\Documents\Visual Studio 2015\Projects\Task 3 Paint\GDP WaterMill Garden Emporium\WPF Mock ups\bin\Debug\WPF Mock ups.exe.config
 C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\bin\Debug\WPF Mock ups.exe.config
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\bin\Debug\WPF Mock ups.exe
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\bin\Debug\WPF Mock ups.pdb
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\bin\Debug\MySql.Data.dll
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\bin\Debug\MySql.Data.xml
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\obj\Debug\App.g.cs
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\obj\Debug\WPF Mock ups_MarkupCompile.cache
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\obj\Debug\WPF_Mock_ups.Properties.Resources.resources
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\obj\Debug\WPF Mock ups.csproj.GenerateResource.Cache
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\obj\Debug\WPF Mock ups.exe
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\obj\Debug\WPF Mock ups.pdb
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\obj\Debug\WPF Mock ups.csprojResolveAssemblyReference.cache
+C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\obj\Debug\WPF Mock ups.g.resources
