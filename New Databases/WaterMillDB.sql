@@ -36,5 +36,5 @@ Foreign Key (username) references users(username));
 
 create table itemOrders (itemID bigint(15) NOT NULL, orderID bigint(15) NOT NULL, quantity int(3) NOT NULL,
 orderPrice decimal(12,2), refused tinyint(1),
-notes varchar(100), reveived tinyint(1), Primary Key (itemID, orderID), Foreign Key (itemID) references supplierItems(itemID),
-Foreign Key (orderID) references orders(orderID));
+notes varchar(100), reveived tinyint(1), authorised tinyint(1), Primary Key (itemID, orderID),
+Foreign Key (itemID) references supplierItems(itemID), Foreign Key (orderID) references orders(orderID));
