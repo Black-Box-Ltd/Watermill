@@ -1,2 +1,3 @@
 C:\Users\Ashle\OneDrive\Documents\Visual Studio 2015\Projects\Task 3 Paint\GDP WaterMill Garden Emporium\WPF Mock ups\bin\Debug\WPF Mock ups.exe.config
 C:\Users\Ashle\UNI WORK\Group Design Project\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\bin\Debug\WPF Mock ups.exe.config
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\Github\Watermill\WPF Mock Ups\GDP WaterMill Garden Emporium\WPF Mock ups\bin\Debug\WPF Mock ups.exe.config
