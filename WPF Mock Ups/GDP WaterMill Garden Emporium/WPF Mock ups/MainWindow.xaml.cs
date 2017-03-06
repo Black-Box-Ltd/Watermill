@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using MySql.Data.MySqlClient;
+
 namespace WPF_Mock_ups
 {
     /// <summary>
@@ -22,7 +24,12 @@ namespace WPF_Mock_ups
     {
         public MainWindow()
         {
-            InitializeComponent();
+            
+        }
+
+        private void btn_Login_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
