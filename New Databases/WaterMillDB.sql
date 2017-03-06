@@ -1,9 +1,15 @@
 create database fanWaterMillDB;
 use fanWaterMillDB;
 
+CREATE table users (userID  bigint(15) NOT NULL Auto_Increment,
+firstName varChar(10) NOT NULL, lastName varchar(10) NOT NULL, username varchar(16) unique NOT NULL,
+passwords varchar(64) NOT NULL, userPosition varchar(15) NOT NULL, adminUser tinyint(1) NOT NULL, 
+Primary key (userID));
+
 create table items (itemID  bigint(15) NOT NULL Auto_Increment, itemName varchar(20) NOT NULL, imageURL varchar(160) NOT NULL,
 primaryCategory varchar(15) NOT NULL, sellingState tinyint(1) NOT NULL, listingType varchar(10) NOT NULL,
-promotion varchar(20), itemLocation varchar(10) NOT NULL, Primary key (itemID));
+promotion varchar(20), itemLocation varchar(10) NOT NULL, userID bigint(15), Primary key (itemID), Foreign Key (userID)
+references users(userID));
 
 create table itemStocks(itemID bigint(15) NOT NULL, minimumStock int(3) NOT NULL, currentStock int(3) NOT NULL,
 estimatedStock int(3) NOT NULL, Primary Key (itemID), Foreign Key (itemID) references items(itemID));
@@ -14,11 +20,6 @@ city varchar(15) NOT NULL, country varchar(5) NOT NULL, deliveryTime varchar(10)
 create table supplierItems (itemID bigint(15) NOT NULL, supplierID bigint(15) NOT NULL, currentPrice decimal(12, 2) NOT NULL,
 Primary Key (itemID, supplierID), Foreign Key (ItemID) references items(itemID),
 Foreign Key (supplierID) references suppliers(supplierID));
-
-CREATE table users (userID  bigint(15) NOT NULL Auto_Increment,
-firstName varChar(10) NOT NULL, lastName varchar(10) NOT NULL, username varchar(16) unique NOT NULL,
-passwords varchar(64) NOT NULL, userPosition varchar(15) NOT NULL, adminUser tinyint(1) NOT NULL, 
-Primary key (userID));
 
 create table orders (orderID bigint(15) NOT NULL Auto_Increment, username varchar(16) NOT NULL, deliveryDate date NOT NULL,
 arrivalDate date NOT NULL, Primary Key(orderID),
