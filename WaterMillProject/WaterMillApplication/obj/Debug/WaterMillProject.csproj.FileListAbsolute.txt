@@ -11,18 +11,10 @@ C:\Users\Fabio Nunes\Desktop\WaterMillProject\WaterMillApplication\obj\Debug\Wpf
 C:\Users\Fabio Nunes\Desktop\WaterMillProject\WaterMillApplication\obj\Debug\WpfApplication1.g.resources
 C:\Users\Fabio Nunes\Desktop\WaterMillProject\WaterMillApplication\obj\Debug\WpfApplication1.Properties.Resources.resources
 C:\Users\Fabio Nunes\Desktop\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject.csproj.GenerateResource.Cache
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\bin\Debug\WpfApplication1.exe.config
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WpfApplication1.exe
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WpfApplication1.pdb
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\bin\Debug\WpfApplication1.exe
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\bin\Debug\WpfApplication1.pdb
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject.csprojResolveAssemblyReference.cache
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\MainWindow.baml
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\MainWindow.g.cs
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\App.g.cs
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WpfApplication1_MarkupCompile.cache
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WpfApplication1.g.resources
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WpfApplication1.Properties.Resources.resources
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject.csproj.GenerateResource.Cache
 H:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject.csprojResolveAssemblyReference.cache
 H:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\App.g.cs
@@ -39,3 +31,14 @@ H:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProj
 H:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\bin\Debug\WaterMillProject.pdb
 H:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject.exe
 H:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject.pdb
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\bin\Debug\WaterMillProject.exe.config
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject.exe
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject.pdb
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\MainResourceWindow.baml
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\MainResourceWindow.g.cs
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject_MarkupCompile.cache
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject.g.resources
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\WaterMillProject.Properties.Resources.resources
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\bin\Debug\WaterMillProject.exe
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\bin\Debug\WaterMillProject.pdb
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\bin\Debug\MySql.Data.dll

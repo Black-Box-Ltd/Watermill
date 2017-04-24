@@ -64,13 +64,13 @@
 
         <Image Source="ImageSources\Logo.png" Margin="10,10,644,481"/>
 
-        <Button x:Name="btn_MenuHide" Width="40" Height="49" Click="btn_MenuHide_Click" Visibility="Hidden" Focusable="False" IsTabStop="False" Margin="662,10,98,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="3" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0" IsHitTestVisible="False">
+        <Button x:Name="btn_MenuHide" Width="40" Height="49" Click="btn_MenuHide_Click" Visibility="Hidden" Focusable="False" IsTabStop="False" Margin="662,10,98,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="3" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
             <StackPanel>
                 <Image Source="ImageSources\HamburgerMenu.png" Stretch="Fill"/>
             </StackPanel>
         </Button>
 
-        <Button x:Name="btn_MenuShow" x:FieldModifier="public" Width="40" Height="49" Click="btn_MenuShow_Click" Focusable="False" IsTabStop="False" Margin="662,10,98,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="3" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+        <Button x:Name="btn_MenuShow" Width="40" Height="49" Click="btn_MenuShow_Click" Focusable="False" IsTabStop="False" Margin="662,10,98,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="3" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
             <StackPanel>
                 <Image Source="ImageSources\HamburgerMenu.png" Stretch="Fill" Height="44" Width="39"/>
             </StackPanel>

@@ -12,6 +12,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Media.Animation;
+using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 
 namespace WaterMillProject
 {
@@ -34,16 +36,41 @@ namespace WaterMillProject
 
         public void btn_Login_Click(object sender, RoutedEventArgs e)
         {
-            /*if (string.IsNullOrWhiteSpace(txt_Username.Text) || string.IsNullOrWhiteSpace(pw_Password.Password))
+
+            int valid = 0;
+
+            Database DBConnect = new Database();
+            DBConnect.DBConnect();
+            DBConnect.OpenConnection();
+            int userName = Convert.ToInt32(txt_Username.Text);
+            string passWord = pw_Password.Password;
+            MySqlCommand cmd = new MySqlCommand("SELECT Count(*) FROM users WHERE admin_id = @id and password = @password", DBConnect.connection);
+            cmd.Connection = DBConnect.connection;
+            cmd.Parameters.AddWithValue("id", userName);
+            cmd.Parameters.AddWithValue("password", passWord);
+            MySqlDataReader r = cmd.ExecuteReader();
+
+            if (r.HasRows)
             {
-                MessageBox.Show("You need to enter an Username & Password");
+                valid = 1;
             }
-            else
-            {*/
+
+            DBConnect.CloseConnection();
+
+            if (valid == 1)
+            {
                 MainResourceWindow PrimaryWindow = new MainResourceWindow();
                 this.Close();
                 PrimaryWindow.Show();
-            //}
+            }
+            else if (string.IsNullOrWhiteSpace(txt_Username.Text) || string.IsNullOrWhiteSpace(pw_Password.Password))
+            {
+                MessageBox.Show("Please fill in the login details.");
+            }
+            else
+            {
+                MessageBox.Show("Invalid Login.");
+            }
         }
 
         public void ShowHideMenu(string Storyboard, Button btnHide, Button btnShow, StackPanel pnl)
