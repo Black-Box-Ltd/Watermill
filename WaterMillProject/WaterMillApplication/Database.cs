@@ -13,9 +13,9 @@ namespace WaterMillProject
     {
         public MySqlConnection connection;
         private String server = "ucp-i-tas01";
-        private String database = "joogardendb";
-        private String uid = "joo";
-        private String password = "643";
+        private String database = "fangarden";
+        private String uid = "fan";
+        private String password = "639";
 
         public void DBConnect()
         {

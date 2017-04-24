@@ -42,30 +42,31 @@ namespace WaterMillProject
             Database DBConnect = new Database();
             DBConnect.DBConnect();
             DBConnect.OpenConnection();
-            int userName = Convert.ToInt32(txt_Username.Text);
+            string userName = txt_Username.Text;
             string passWord = pw_Password.Password;
-            MySqlCommand cmd = new MySqlCommand("SELECT Count(*) FROM users WHERE admin_id = @id and password = @password", DBConnect.connection);
+            MySqlCommand cmd = new MySqlCommand("SELECT Count(*) FROM users WHERE username = @id and passwords = @pass", DBConnect.connection);
             cmd.Connection = DBConnect.connection;
             cmd.Parameters.AddWithValue("id", userName);
-            cmd.Parameters.AddWithValue("password", passWord);
+            cmd.Parameters.AddWithValue("pass", passWord);
             MySqlDataReader r = cmd.ExecuteReader();
 
-            if (r.HasRows)
+            if (string.IsNullOrWhiteSpace(txt_Username.Text) || string.IsNullOrWhiteSpace(pw_Password.Password))
+            {
+                MessageBox.Show("Please fill in the login details.");
+            } 
+            else if (r.HasRows)
             {
                 valid = 1;
             }
 
             DBConnect.CloseConnection();
 
+            
             if (valid == 1)
             {
                 MainResourceWindow PrimaryWindow = new MainResourceWindow();
                 this.Close();
                 PrimaryWindow.Show();
-            }
-            else if (string.IsNullOrWhiteSpace(txt_Username.Text) || string.IsNullOrWhiteSpace(pw_Password.Password))
-            {
-                MessageBox.Show("Please fill in the login details.");
             }
             else
             {
