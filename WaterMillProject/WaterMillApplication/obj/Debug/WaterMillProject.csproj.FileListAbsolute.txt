@@ -63,7 +63,6 @@ E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProj
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\ItemSearch.baml
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\NewItem.baml
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\NewSupplier.baml
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\Notifications.baml
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\Orders.baml
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\Reports.baml
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\UserSearch.baml
@@ -71,7 +70,6 @@ E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProj
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\ItemSearch.g.cs
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\NewItem.g.cs
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\NewSupplier.g.cs
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\Notifications.g.cs
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\Orders.g.cs
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\Reports.g.cs
 E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\Pages\UserSearch.g.cs

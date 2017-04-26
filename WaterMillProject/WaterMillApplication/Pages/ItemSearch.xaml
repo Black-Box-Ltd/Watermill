@@ -55,13 +55,17 @@
         <Label x:Name="lbl_itemsName" Content="Item Name" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,94,671,358"/>
         <TextBox x:Name="txt_itemName" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,94,0,358"/>
         <Label x:Name="lbl_itemsID" Content="Item ID" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,140,671,312"/>
-        <TextBox x:Name="txt_itemID" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,140,0,312"/>
+        <TextBox x:Name="txt_itemID" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="116" Margin="142,140,0,310"/>
+        <Label x:Name="lbl_userID" Content="User ID" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="60" Margin="0,140,439,310"/>
+        <TextBox x:Name="txt_userID" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="71" Margin="351,140,0,310"/>
         <Label x:Name="lbl_imageURL" Content="Image URL" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,180,671,272"/>
         <TextBox x:Name="txt_imageURL" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,180,0,272"/>
         <Label x:Name="lbl_imageURL_Copy" Content="Promotion" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,223,671,227"/>
-        <TextBox x:Name="txt_imageURL_Copy" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,223,0,227"/>
+        <ComboBox x:Name="cb_promotion" HorizontalAlignment="Left" Margin="142,223,0,0" VerticalAlignment="Top" Width="280" Height="25"/>
         <Label x:Name="lbl_selling" Content="Selling?" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Height="25" Margin="0,268,671,182"/>
         <ComboBox x:Name="cb_selling" HorizontalAlignment="Left" Margin="142,269,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label x:Name="lbl_location" Content="Location" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Height="25" Margin="0,268,439,182"/>
+        <TextBox x:Name="txt_location" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="71" Margin="351,268,0,182"/>
         <Label x:Name="lbl_type" Content="Type" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Height="25" Margin="0,312,671,138"/>
         <ComboBox x:Name="cb_type" HorizontalAlignment="Left" Margin="142,312,0,0" VerticalAlignment="Top" Width="163"/>
         <Label x:Name="lbl_minStock" Content="Minimum Stock" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="104" Height="25" Margin="0,356,646,94"/>
@@ -70,8 +74,9 @@
         <TextBox x:Name="txt_maxStock" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="64" Margin="358,356,0,94"/>
         <Label x:Name="lbl_estimatedStock" Content="Estimated Stock" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="104" Height="25" Margin="0,400,646,50"/>
         <TextBox x:Name="txt_estimatedStock" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="64" Margin="149,400,0,50"/>
-        
-        <Button x:Name="btn_Home" Width="100" Height="30" Click="btn_Submit_Click" Focusable="False" Margin="322,400,368,45" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+        <Label Content="Placeholder for product image, &#xD;&#xA;inserted by code." HorizontalAlignment="Left" Margin="525,54,0,0" VerticalAlignment="Top" Height="177" Width="195"/>
+
+        <Button x:Name="btn_Submit" Width="100" Height="30" Click="btn_Submit_Click" Focusable="False" Margin="322,400,368,45" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
             <StackPanel>
                 <Image Source="..\ImageSources\SubmitButton.png" Stretch="Uniform" Width="100"/>
             </StackPanel>

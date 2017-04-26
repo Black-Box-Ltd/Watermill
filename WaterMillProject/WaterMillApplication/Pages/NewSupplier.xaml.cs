@@ -23,5 +23,10 @@ namespace WaterMillProject.Pages
         {
             InitializeComponent();
         }
+
+        private void btn_Submit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

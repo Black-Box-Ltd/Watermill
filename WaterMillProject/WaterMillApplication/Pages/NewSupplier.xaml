@@ -48,6 +48,41 @@
 
     <Grid x:Name="bg" Background="#FFFFFF" Margin="0,0,0,0">
 
+        <Label x:Name="lbl_supplier" Content="Supplier Name" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="97" Margin="0,10,653,440"/>
+        <TextBox x:Name="txt_supplier" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,10,0,440"/>
+        <Label x:Name="lbl_city" Content="City" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="75" Margin="0,44,675,406"/>
+        <TextBox x:Name="txt_city" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,44,0,406"/>
+        <Label x:Name="lbl_postCode" Content="Post Code" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="75" Margin="0,76,675,374"/>
+        <TextBox x:Name="txt_postCode" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="117" Margin="142,76,0,374"/>
+        <Label x:Name="lbl_country" Content="Country" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="75" Margin="0,108,675,342"/>
+        <TextBox x:Name="txt_country" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="117" Margin="142,108,0,342"/>
+        <Label x:Name="lbl_delivery" Content="Delivery Time (Days)" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="130" Margin="0,140,620,310"/>
+        <TextBox x:Name="txt_delivery" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="117" Margin="175,140,0,310"/>
+        <Label x:Name="lbl_itemsSupplied" Content="Items Supplied" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="97" Margin="0,167,653,283"/>
+        <ComboBox x:Name="cb_itemsSupplied_1" HorizontalAlignment="Left" Margin="40,197,0,0" VerticalAlignment="Top" Width="190" Height="25"/>
+        <Label x:Name="lbl_price_1" Content="Price" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="48" Margin="0,197,483,253"/>
+        <TextBox x:Name="txt_price_1" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="117" Margin="305,197,0,253"/>
+        <ComboBox x:Name="cb_itemsSupplied_2" HorizontalAlignment="Left" Margin="40,227,0,0" VerticalAlignment="Top" Width="190" Height="25"/>
+        <Label x:Name="lbl_price_2" Content="Price" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="48" Margin="0,227,483,223"/>
+        <TextBox x:Name="txt_price_2" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="117" Margin="305,227,0,223"/>
+        <ComboBox x:Name="cb_itemsSupplied_3" HorizontalAlignment="Left" Margin="40,257,0,0" VerticalAlignment="Top" Width="190" Height="25"/>
+        <Label x:Name="lbl_price_3" Content="Price" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="48" Margin="0,257,483,193"/>
+        <TextBox x:Name="txt_price_3" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="117" Margin="305,257,0,193"/>
+        <ComboBox x:Name="cb_itemsSupplied_4" HorizontalAlignment="Left" Margin="40,287,0,0" VerticalAlignment="Top" Width="190" Height="25"/>
+        <Label x:Name="lbl_price_4" Content="Price" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="48" Margin="0,287,483,163"/>
+        <TextBox x:Name="txt_price_4" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="117" Margin="305,287,0,163"/>
+        <ComboBox x:Name="cb_itemsSupplied_5" HorizontalAlignment="Left" Margin="40,317,0,0" VerticalAlignment="Top" Width="190" Height="25"/>
+        <Label x:Name="lbl_price_5" Content="Price" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="48" Margin="0,317,483,133"/>
+        <TextBox x:Name="txt_price_5" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="117" Margin="305,317,0,133"/>
+        <ComboBox x:Name="cb_itemsSupplied_6" HorizontalAlignment="Left" Margin="40,347,0,0" VerticalAlignment="Top" Width="190" Height="25"/>
+        <Label x:Name="lbl_price_6" Content="Price" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="48" Margin="0,347,483,103"/>
+        <TextBox x:Name="txt_price_6" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="117" Margin="305,347,0,103"/>
 
+        <Button x:Name="btn_Submit" Width="100" Height="30" Click="btn_Submit_Click" Focusable="False" Margin="322,400,368,45" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+            <StackPanel>
+                <Image Source="..\ImageSources\SubmitButton.png" Stretch="Uniform" Width="100"/>
+            </StackPanel>
+        </Button>
+        
     </Grid>
 </Page> 

@@ -47,7 +47,34 @@
     </Page.Resources>
 
     <Grid x:Name="bg" Background="#FFFFFF" Margin="0,0,0,0">
+        <Label x:Name="lbl_category" Content="Category" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="66" Margin="0,10,684,442"/>
+        <ComboBox Name="cb_category" HorizontalAlignment="Left" Margin="142,10,0,0" VerticalAlignment="Top" Width="190" Height="25"/>
+        <Label x:Name="lbl_itemsName" Content="Item Name" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,46,671,404"/>
+        <TextBox x:Name="txt_itemName" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,46,0,404"/>
+        <Label x:Name="lbl_itemsID" Content="Item ID" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,92,671,358"/>
+        <TextBox x:Name="txt_itemID" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="116" Margin="142,92,0,358"/>
+        <Label x:Name="lbl_userID" Content="User ID" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="60" Margin="0,92,439,358"/>
+        <TextBox x:Name="txt_userID" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="71" Margin="351,92,0,358"/>
+        <Label x:Name="lbl_imageURL" Content="Image URL" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,132,671,318"/>
+        <TextBox x:Name="txt_imageURL" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,132,0,318"/>
+        <Label x:Name="lbl_imageURL_Copy" Content="Promotion" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,175,671,275"/>
+        <ComboBox x:Name="cb_promotion" HorizontalAlignment="Left" Margin="142,175,0,0" VerticalAlignment="Top" Width="280" Height="25"/>
+        <Label x:Name="lbl_selling" Content="Selling?" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Height="25" Margin="0,220,671,230"/>
+        <ComboBox x:Name="cb_selling" HorizontalAlignment="Left" Margin="142,221,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label x:Name="lbl_type" Content="Type" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Height="25" Margin="0,264,671,186"/>
+        <ComboBox x:Name="cb_type" HorizontalAlignment="Left" Margin="142,264,0,0" VerticalAlignment="Top" Width="163"/>
+        <Label x:Name="lbl_minStock" Content="Minimum Stock" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="104" Height="25" Margin="0,308,646,142"/>
+        <TextBox x:Name="txt_minStock" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="64" Margin="149,308,0,142"/>
+        <Label x:Name="lbl_maxStock" Content="Maximum Stock" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="104" Height="25" Margin="0,308,439,142"/>
+        <TextBox x:Name="txt_maxStock" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="64" Margin="358,308,0,142"/>
+        <Label x:Name="lbl_estimatedStock" Content="Estimated Stock" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="104" Height="25" Margin="0,352,646,98"/>
+        <TextBox x:Name="txt_estimatedStock" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="64" Margin="149,352,0,98"/>
 
+        <Button x:Name="btn_Submit" Width="100" Height="30" Click="btn_Submit_Click" Focusable="False" Margin="322,400,368,45" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+            <StackPanel>
+                <Image Source="..\ImageSources\SubmitButton.png" Stretch="Uniform" Width="100"/>
+            </StackPanel>
+        </Button>
 
     </Grid>
 </Page> 

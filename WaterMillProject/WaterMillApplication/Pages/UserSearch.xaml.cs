@@ -23,5 +23,40 @@ namespace WaterMillProject.Pages
         {
             InitializeComponent();
         }
+
+        private void btn_Search_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_ClearSearch_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_Apply_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_Cancel_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_Delete_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_Submit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_SubmitPassword_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

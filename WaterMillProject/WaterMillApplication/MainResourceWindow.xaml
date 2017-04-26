@@ -125,12 +125,6 @@
                         </StackPanel>
                     </Button>
 
-                    <Button x:Name="btn_Notifications" Width="100" Height="30" Click="btn_Notifications_Click" Focusable="False" Margin="0,-540,0.333,551" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
-                        <StackPanel >
-                            <Image Source="ImageSources\NotificationsButton.png" Stretch="Uniform" Width="100"/>
-                        </StackPanel>
-                    </Button>
-
                     <Button x:Name="btn_ItemSearch" Width="100" Height="30" Click="btn_ItemSearch_Click" Focusable="False" Margin="0,-540,0.333,551" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
                         <StackPanel >
                             <Image Source="ImageSources\ItemSearchButton.png" Stretch="Uniform" Width="100"/>

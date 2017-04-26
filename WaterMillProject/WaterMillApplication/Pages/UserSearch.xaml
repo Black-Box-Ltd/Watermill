@@ -47,7 +47,70 @@
     </Page.Resources>
 
     <Grid x:Name="bg" Background="#FFFFFF" Margin="0,0,0,0">
+        <Label x:Name="lbl_userID" Content="User ID" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,10,671,440"/>
+        <TextBox x:Name="txt_itemID" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="136" Margin="105,10,0,440"/>
+        <Label x:Name="lbl_or" Content="or" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="40" Margin="0,10,499,440"/>
+        <Label x:Name="lbl_firstName" Content="First Name" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,10,432,440"/>
+        <TextBox x:Name="txt_firstName" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="136" Margin="363,10,0,440"/>
+        <Label x:Name="lbl_and" Content="and" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="40" Margin="0,39,456,411"/>
+        <Label x:Name="lbl_LastName" Content="Last Name" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,68,433,382"/>
+        <TextBox x:Name="txt_LastName" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="136" Margin="363,68,0,382"/>
 
+        <Button x:Name="btn_Search" Width="100" Height="30" Click="btn_Search_Click" Focusable="False" Margin="551,10,139,435" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+            <StackPanel>
+                <Image Source="..\ImageSources\SearchButton.png" Stretch="Uniform" Width="100"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_Clear" Width="100" Height="30" Click="btn_ClearSearch_Click" Focusable="False" Margin="551,63,139,382" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+            <StackPanel>
+                <Image Source="..\ImageSources\ClearButton.png" Stretch="Uniform" Width="100"/>
+            </StackPanel>
+        </Button>
+
+
+        <Label x:Name="lbl_userID_Result" Content="User ID" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,134,671,316"/>
+        <TextBox x:Name="txt_itemID_Result" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="136" Margin="105,134,0,316"/>
+        <Label x:Name="lbl_firstName_Result" Content="First Name" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,168,671,282"/>
+        <TextBox x:Name="txt_firstName_Result" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="136" Margin="124,168,0,282"/>
+        <Label x:Name="lbl_lastName_Result" Content="Last Name" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,202,671,248"/>
+        <TextBox x:Name="txt_lastName_Result" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="136" Margin="124,202,0,248"/>
+        <Label x:Name="lbl_username_Result" Content="Username" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,236,671,214"/>
+        <TextBox x:Name="txt_username_Result" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="136" Margin="124,236,0,214"/>
+        <Label x:Name="lbl_passwordReset" Content="Password Reset" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="103" Margin="0,138,302,312"/>
+        <Label x:Name="lbl_newPassword" Content="New Password" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="103" Margin="0,168,302,282"/>
+        <TextBox x:Name="txt_newPassword" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="136" Margin="515,168,0,282"/>
+        <Label x:Name="lbl_confirmPassword" Content="Confirm Password" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="125" Margin="0,202,280,248"/>
+        <TextBox x:Name="txt_confirmPassword" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="136" Margin="515,202,0,248"/>
+        <Label x:Name="lbl_position_Result" Content="Position" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,270,671,180"/>
+        <ComboBox x:Name="cb_position_Result" HorizontalAlignment="Left" Margin="124,270,0,0" VerticalAlignment="Top" Width="233" Height="25"/>
+        <Label x:Name="lbl_category_Result" Content="Category" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,304,671,146"/>
+        <ComboBox x:Name="cb_category" HorizontalAlignment="Left" Margin="124,304,0,0" VerticalAlignment="Top" Width="233" Height="25"/>
+        <Label x:Name="lbl_admin_Result" Content="Admin?" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,337,671,113"/>
+        <ComboBox x:Name="cb_admin_Result" HorizontalAlignment="Left" Margin="124,337,0,0" VerticalAlignment="Top" Width="136" Height="25"/>
+
+        <Button x:Name="btn_Cancel" Width="100" Height="30" Click="btn_Cancel_Click" Focusable="False" Margin="141,382,549,63" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+            <StackPanel>
+                <Image Source="..\ImageSources\ClearButton.png" Stretch="Uniform" Width="100"/>
+            </StackPanel>
+        </Button>
+
+        <Button x:Name="btn_Delete" Width="100" Height="30" Click="btn_Delete_Click" Focusable="False" Margin="141,423,549,22" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+            <StackPanel>
+                <Image Source="..\ImageSources\DeleteButton.png" Stretch="Uniform" Width="100"/>
+            </StackPanel>
+        </Button>
+
+        <Button x:Name="btn_Apply" Width="100" Height="30" Click="btn_Apply_Click" Focusable="False" Margin="257,382,433,63" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+            <StackPanel>
+                <Image Source="..\ImageSources\SearchButton.png" Stretch="Uniform" Width="100"/>
+            </StackPanel>
+        </Button>
+
+        <Button x:Name="btn_Submit" Width="100" Height="30" Click="btn_SubmitPassword_Click" Focusable="False" Margin="551,241,139,204" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+            <StackPanel>
+                <Image Source="..\ImageSources\SubmitButton.png" Stretch="Uniform" Width="100"/>
+            </StackPanel>
+        </Button>
 
     </Grid>
 </Page> 

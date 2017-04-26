@@ -122,10 +122,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Notifications.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Pages\Orders.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -151,9 +147,6 @@
     </Compile>
     <Compile Include="Pages\NewSupplier.xaml.cs">
       <DependentUpon>NewSupplier.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Notifications.xaml.cs">
-      <DependentUpon>Notifications.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Orders.xaml.cs">
       <DependentUpon>Orders.xaml</DependentUpon>
@@ -248,6 +241,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ImageSources\Logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImageSources\AddButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImageSources\SearchButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImageSources\DeleteButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
