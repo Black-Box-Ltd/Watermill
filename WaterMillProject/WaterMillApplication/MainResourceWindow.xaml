@@ -4,10 +4,11 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
+        Icon="ImageSources/Logo.ico"
         Title="Water Mill Stock Ordering" Height="600" Width="800" AllowsTransparency="True" Background="{x:Null}">
-    
+
     <Window.Resources>
-        
+
         <Storyboard x:Key="sb_ShowMenu" >
             <ThicknessAnimation Storyboard.TargetProperty="Margin" From="0,-592,0,0" To="0,0,0,0" DecelerationRatio=".9" Duration="0:0:1" />
         </Storyboard>
@@ -54,6 +55,24 @@
                 </Setter.Value>
             </Setter>
         </Style>
+
+        <Style x:Key="txt_Username" TargetType="{x:Type TextBox}">
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="AllowDrop" Value="false"/>
+            <Setter Property="IsTabStop" Value="true"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBoxBase}">
+                        <Border Name="Border" CornerRadius="2" Padding="2" Background="Transparent" BorderBrush="Transparent" BorderThickness="1" >
+                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
     </Window.Resources>
 
     <Grid x:Name="bg" Background="#FFFFFF" Margin="0,0,10,10">
@@ -64,32 +83,90 @@
 
         <Image Source="ImageSources\Logo.png" Margin="10,10,644,481"/>
 
-        <Button x:Name="btn_MenuHide" Width="40" Height="49" Click="btn_MenuHide_Click" Visibility="Hidden" Focusable="False" IsTabStop="False" Margin="662,10,98,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="3" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+        <Label Content="Welcome back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="67,48,0,0" Width="101" FontFamily="Myriad Pro" FontSize="14"/>
+        <TextBox Name="txt_userName" Height="24" VerticalAlignment="Top" Width="120" Margin="69,70,601,0" Style="{DynamicResource txt_Username}" Focusable="False" IsHitTestVisible="False" IsTabStop="False" IsEnabled="False" FontFamily="Myriad Pro" FontSize="14"/>
+
+        <Button x:Name="btn_MenuHide" Width="40" Height="49" Click="btn_MenuHide_Click" Visibility="Hidden" Focusable="False" IsTabStop="False" Margin="662,10,98,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
             <StackPanel>
                 <Image Source="ImageSources\HamburgerMenu.png" Stretch="Fill"/>
             </StackPanel>
         </Button>
 
-        <Button x:Name="btn_MenuShow" Width="40" Height="49" Click="btn_MenuShow_Click" Focusable="False" IsTabStop="False" Margin="662,10,98,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="3" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+        <Button x:Name="btn_MenuShow" Width="40" Height="49" Click="btn_MenuShow_Click" Focusable="False" IsTabStop="False" Margin="662,10,98,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
             <StackPanel>
                 <Image Source="ImageSources\HamburgerMenu.png" Stretch="Fill" Height="44" Width="39"/>
             </StackPanel>
         </Button>
 
-        <Button x:Name="btn_Minimize" Width="40" Height="49" Click="btn_Minimize_Click" Focusable="False" IsTabStop="False" Margin="707,10,53,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="3" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+        <Button x:Name="btn_Minimize" Width="40" Height="49" Click="btn_Minimize_Click" Focusable="False" IsTabStop="False" Margin="707,10,53,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
             <StackPanel>
                 <Image Source="ImageSources\MinimizeIcon.png" Stretch="Fill"/>
             </StackPanel>
         </Button>
 
-        <Button x:Name="btn_Close" Width="40" Height="49" Click="btn_Close_Click" Focusable="False" IsTabStop="False" Margin="752,10,8,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="3" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+        <Button x:Name="btn_Close" Width="40" Height="49" Click="btn_Close_Click" Focusable="False" IsTabStop="False" Margin="752,10,8,541" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
             <StackPanel>
                 <Image Source="ImageSources\CloseIcon.png" Stretch="Fill"/>
             </StackPanel>
         </Button>
 
-        <StackPanel Panel.ZIndex="2" Name="pnl_Menu" Orientation="Vertical" Width="150" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="637,-592,0,0">
-            <Border BorderThickness="0" Height="592" Background="#4C808080"/>
+        <StackPanel Panel.ZIndex="3" Name="pnl_Menu" Orientation="Vertical" Width="150" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="637,-592,0,0">
+            <Border BorderThickness="0" Height="592" Background="#4C808080">
+                <StackPanel>
+                    <Button x:Name="btn_Home" Width="100" Height="30" Click="btn_Home_Click" Focusable="False" Margin="0,60,0.333,551" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+                        <StackPanel >
+                            <Image Source="ImageSources\HomeButton.png" Stretch="Uniform" Width="100"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btn_Orders" Width="100" Height="30" Click="btn_Orders_Click" Focusable="False" Margin="0,-540,0.333,551" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+                        <StackPanel >
+                            <Image Source="ImageSources\OrdersButton.png" Stretch="Uniform" Width="100"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btn_Notifications" Width="100" Height="30" Click="btn_Notifications_Click" Focusable="False" Margin="0,-540,0.333,551" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+                        <StackPanel >
+                            <Image Source="ImageSources\NotificationsButton.png" Stretch="Uniform" Width="100"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btn_ItemSearch" Width="100" Height="30" Click="btn_ItemSearch_Click" Focusable="False" Margin="0,-540,0.333,551" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+                        <StackPanel >
+                            <Image Source="ImageSources\ItemSearchButton.png" Stretch="Uniform" Width="100"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btn_UserSearch" Width="100" Height="30" Click="btn_UserSearch_Click" Focusable="False" Margin="0,-540,0.333,551" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+                        <StackPanel >
+                            <Image Source="ImageSources\UserSearchButton.png" Stretch="Uniform" Width="100"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btn_NewItem" Width="100" Height="30" Click="btn_NewItem_Click" Focusable="False" Margin="0,-540,0.333,551" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+                        <StackPanel >
+                            <Image Source="ImageSources\NewItemButton.png" Stretch="Uniform" Width="100"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btn_NewSupplier" Width="100" Height="30" Click="btn_NewSupplier_Click" Focusable="False" Margin="0,-540,0.333,551" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+                        <StackPanel >
+                            <Image Source="ImageSources\NewSupplierButton.png" Stretch="Uniform" Width="100"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btn_Reports" Width="100" Height="30" Click="btn_Reports_Click" Focusable="False" Margin="0,-540,0.333,551" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+                        <StackPanel >
+                            <Image Source="ImageSources\ReportsButton.png" Stretch="Uniform" Width="100"/>
+                        </StackPanel>
+                    </Button>
+
+                </StackPanel>
+            </Border>
         </StackPanel>
+
+        <DockPanel Margin="0,115,0,0" Panel.ZIndex="2">
+            <Frame x:Name="_NavigationFrame" NavigationUIVisibility="Hidden" />
+        </DockPanel>
     </Grid>
 </Window> 

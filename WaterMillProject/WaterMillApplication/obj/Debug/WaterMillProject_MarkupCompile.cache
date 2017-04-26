@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\Github\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\obj\Debug\
 WaterMillProject
 none
 false
 DEBUG;TRACE
-E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\Github\Watermill\WaterMillProject\WaterMillApplication\App.xaml
-22119198984
+E:\University\Year 2\Term 2\Group Design Project\Project\Watermill\WaterMillProject\WaterMillApplication\App.xaml
+10-1451394832
 
-7884448345
-15-1491605178
-MainResourceWindow.xaml;MainWindow.xaml;
+15-1699457400
+15-1342197323
+MainResourceWindow.xaml;MainWindow.xaml;Pages\Home.xaml;Pages\ItemSearch.xaml;Pages\NewItem.xaml;Pages\NewSupplier.xaml;Pages\Notifications.xaml;Pages\Orders.xaml;Pages\Reports.xaml;Pages\UserSearch.xaml;
 
 False
 

@@ -1,0 +1,80 @@
+﻿<Page x:Class="WaterMillProject.Pages.ItemSearch"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Water Mill Stock Ordering" Height="475" Width="790" Background="{x:Null}">
+
+    <Page.Resources>
+        <Style x:Key="CustomButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
+                            <ContentPresenter ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" TargetName="Bd" Value="Transparent"/>
+                                <Setter Property="Background" TargetName="Bd" Value="Transparent"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Setter Property="Opacity" Value="0.7"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter Property="BorderBrush" TargetName="Bd" Value="Transparent"/>
+                                <Setter Property="Background" TargetName="Bd" Value="Transparent"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="BorderBrush" TargetName="Bd" Value="Transparent"/>
+                                <Setter Property="Background" TargetName="Bd" Value="Transparent"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Page.Resources>
+
+    <Grid x:Name="bg" Background="#FFFFFF" Margin="0,0,0,0">
+
+        <Label x:Name="lbl_category" Content="Category" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="66" Margin="0,10,684,442"/>
+        <ComboBox Name="cb_category" HorizontalAlignment="Left" Margin="142,10,0,0" VerticalAlignment="Top" Width="190" Height="25"/>
+        <Label x:Name="lbl_items" Content="Item" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,53,671,399"/>
+        <ComboBox x:Name="cb_items" HorizontalAlignment="Left" Margin="142,54,0,0" VerticalAlignment="Top" Width="280" Height="25"/>
+        <Label x:Name="lbl_itemsName" Content="Item Name" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,94,671,358"/>
+        <TextBox x:Name="txt_itemName" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,94,0,358"/>
+        <Label x:Name="lbl_itemsID" Content="Item ID" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,140,671,312"/>
+        <TextBox x:Name="txt_itemID" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,140,0,312"/>
+        <Label x:Name="lbl_imageURL" Content="Image URL" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,180,671,272"/>
+        <TextBox x:Name="txt_imageURL" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,180,0,272"/>
+        <Label x:Name="lbl_imageURL_Copy" Content="Promotion" Height="25" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Margin="0,223,671,227"/>
+        <TextBox x:Name="txt_imageURL_Copy" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="280" Margin="142,223,0,227"/>
+        <Label x:Name="lbl_selling" Content="Selling?" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Height="25" Margin="0,268,671,182"/>
+        <ComboBox x:Name="cb_selling" HorizontalAlignment="Left" Margin="142,269,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label x:Name="lbl_type" Content="Type" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="79" Height="25" Margin="0,312,671,138"/>
+        <ComboBox x:Name="cb_type" HorizontalAlignment="Left" Margin="142,312,0,0" VerticalAlignment="Top" Width="163"/>
+        <Label x:Name="lbl_minStock" Content="Minimum Stock" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="104" Height="25" Margin="0,356,646,94"/>
+        <TextBox x:Name="txt_minStock" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="64" Margin="149,356,0,94"/>
+        <Label x:Name="lbl_maxStock" Content="Maximum Stock" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="104" Height="25" Margin="0,356,439,94"/>
+        <TextBox x:Name="txt_maxStock" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="64" Margin="358,356,0,94"/>
+        <Label x:Name="lbl_estimatedStock" Content="Estimated Stock" FontFamily="Myriad Pro" FontSize="14" HorizontalAlignment="Right" Width="104" Height="25" Margin="0,400,646,50"/>
+        <TextBox x:Name="txt_estimatedStock" Height="25" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="64" Margin="149,400,0,50"/>
+        
+        <Button x:Name="btn_Home" Width="100" Height="30" Click="btn_Submit_Click" Focusable="False" Margin="322,400,368,45" IsTabStop="False" BorderThickness="0" Style="{DynamicResource CustomButtonStyle}" Background="Transparent" Panel.ZIndex="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0">
+            <StackPanel>
+                <Image Source="..\ImageSources\SubmitButton.png" Stretch="Uniform" Width="100"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Page> 

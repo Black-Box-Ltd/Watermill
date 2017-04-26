@@ -49,6 +49,7 @@ namespace WaterMillProject
             cmd.Parameters.AddWithValue("id", userName);
             cmd.Parameters.AddWithValue("pass", passWord);
             MySqlDataReader r = cmd.ExecuteReader();
+            
 
             if (string.IsNullOrWhiteSpace(txt_Username.Text) || string.IsNullOrWhiteSpace(pw_Password.Password))
             {
@@ -64,30 +65,13 @@ namespace WaterMillProject
             
             if (valid == 1)
             {
-                MainResourceWindow PrimaryWindow = new MainResourceWindow();
+                MainResourceWindow PrimaryWindow = new MainResourceWindow(userName);
                 this.Close();
                 PrimaryWindow.Show();
             }
             else
             {
                 MessageBox.Show("Invalid Login.");
-            }
-        }
-
-        public void ShowHideMenu(string Storyboard, Button btnHide, Button btnShow, StackPanel pnl)
-        {
-            Storyboard sb = Resources[Storyboard] as Storyboard;
-            sb.Begin(pnl);
-
-            if (Storyboard.Contains("Show"))
-            {
-                btnHide.Visibility = Visibility.Visible;
-                btnShow.Visibility = Visibility.Hidden;
-            }
-            else if (Storyboard.Contains("Hide"))
-            {
-                btnHide.Visibility = Visibility.Hidden;
-                btnShow.Visibility = Visibility.Visible;
             }
         }
     }

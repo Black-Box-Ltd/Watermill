@@ -4,6 +4,7 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
+        Icon="ImageSources/Logo.ico"
         Title="Water Mill Stock Ordering" Height="600" Width="800" AllowsTransparency="True" Background="{x:Null}">
 
     <Window.Resources>
